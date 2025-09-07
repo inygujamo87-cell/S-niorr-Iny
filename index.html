@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bíblia Digital</title>
+  <style>
+    /* CSS aqui dentro */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+      padding: 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+    h1 {
+      margin-bottom: 15px;
+    }
+    button {
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+    .dark {
+      background: #121212;
+      color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <h1>📖 Bíblia Digital</h1>
+  <p>Bem-vindo! Aqui você poderá ler o Novo Testamento online.</p>
+
+  <!-- Botão para trocar tema -->
+  <button onclick="toggleTheme()">🌙 Trocar tema</button>
+
+  <script>
+    // JS aqui dentro
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+</body>
+  </html>
